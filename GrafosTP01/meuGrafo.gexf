@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+<graph mode="static" defaultedgetype="directed">
+<nodes>
+<node id="joao" label="joao" />
+<node id="maria" label="maria" />
+<node id="ana" label="ana" />
+<node id="pedro" label="pedro" />
+<node id="marcos" label="marcos" />
+</nodes>
+<edges>
+<edge source="joao" target="maria" />
+<edge source="marcos" target="maria" />
+<edge source="joao" target="ana" />
+<edge source="pedro" target="ana" />
+<edge source="pedro" target="joao" />
+</edges>
+</graph>
+</gexf>
